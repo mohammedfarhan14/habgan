@@ -1,54 +1,43 @@
 ﻿
 
-namespace AotForms
 {
-    internal static class Offsets
-    {
+  "GameTimer": 16,
+  "FixedDeltaTime": 36,
+  "InitBase": 147221940,
+  "StaticClass": 92,
 
+  "CurrentMatch": 80,
+  "MatchStatus": 8,
+  "LocalPlayer": 68,
+  "DictionaryEntities": 104,
+  "Player_IsDead": 76,
+  "Player_Name": 548,
+  "Player_Data": 68,
+  "Player_ShadowBase": 4560,
+  "XPose": 120,
 
-        internal static uint GameTimer = 0x10; // 0x10
-        internal static uint FixedDeltaTime = 0x24; // 0x24
+  "AvatarManager": 1012,
+  "Avatar": 148,
+  "Avatar_IsVisible": 124,
+  "Avatar_Data": 16,
+  "Avatar_Data_IsTeam": 81,
 
-        internal static uint Il2Cpp;
-        internal static uint InitBase = 0x8CA88B4;
-        internal static uint StaticClass = 0x5c;
+  "FollowCamera": 900,
+  "Camera": 20,
+  "AimRotation": 828,
+  "MainCameraTransform": 404,
 
-        internal static uint CurrentMatch = 0x50;
-        internal static uint MatchStatus = 0x8;
-        internal static uint LocalPlayer = 0x44;
-        internal static uint DictionaryEntities = 0x68;
-        internal static uint Player_IsDead = 0x4C;
-        internal static uint Player_Name = 0x224;
-        internal static uint Player_Data = 0x44;
-        internal static uint Player_ShadowBase = 0x11d0;
-        internal static uint XPose = 0x78;
+  "Weapon": 816,
+  "WeaponData": 68,
+  "WeaponRecoil": 12,
 
-        internal static uint AvatarManager = 0x3f4;
-        internal static uint Avatar = 0x94;
-        internal static uint Avatar_IsVisible = 0x7c;
-        internal static uint Avatar_Data = 0x10;
-        internal static uint Avatar_Data_IsTeam = 0x51;
+  "ViewMatrix": 188,
 
-        internal static uint FollowCamera = 0x384;
-        internal static uint Camera = 0x14;
-        internal static uint AimRotation = 0x33C;
-        internal static uint MainCameraTransform = 0x194;
+  "IS_FIRING": 1140,
+  "weaponinfo": 2056,
+  "guntipposition": 56,
+  "bullet_hit": 44,
 
-        internal static uint Weapon = 0x330;
-        internal static uint WeaponData = 0x44;
-        internal static uint WeaponRecoil = 0xc;
-
-        internal static uint ViewMatrix = 0x98 + 0x24;
-
-        internal static uint IS_FIRING = 0x474; 
-        internal static uint weaponinfo = 0x808;
-        internal static uint guntipposition = 0x38; 
-        internal static uint bullet_hit = 0x2C; 
-
-        internal static uint CurrentObserver = 0x64;
-        internal static uint ObserverPlayer = 0x28;
-
-
-
-    }
+  "CurrentObserver": 100,
+  "ObserverPlayer": 40
 }
